@@ -1,11 +1,11 @@
 # 🏠 Seoul House Price ML Challenge
-<br>
+
 
 본 프로젝트는 2025년 7월 진행된 **서울시 아파트 실거래가 예측** 머신러닝 경진대회의 결과물입니다. 회귀(Regression) 문제 해결을 목표로, 데이터 엔지니어링부터 모델링, 협업까지 전 과정을 담았습니다.
 <br><br><br>
 
 ## 🎯 프로젝트 배경 및 목적
-<br>
+
 
 부동산 시장에서 아파트 가격 예측은 구매자와 판매자 모두의 합리적인 의사결정을 돕는 중요한 과제입니다. 
 
@@ -191,10 +191,10 @@ graph TD;
 
 
 ## 💻 개발 환경 구축
-<br>
+
 
 프로젝트 개발 환경은 다음과 같이 구축할 수 있습니다.
-<br>
+<br><br>
 
 
 1.  **제공받은 경진대회 서버 사용**
@@ -207,9 +207,9 @@ graph TD;
 
 
 3.  **GitHub Team Repository Clone**
-    ```bash
-    git clone git@github.com:AIBootcamp14/upstageailab-ml-competition-ml-5.git
-    ```
+```bash
+git clone git@github.com:AIBootcamp14/upstageailab-ml-competition-ml-5.git
+```
 <br>
 
 
@@ -220,7 +220,6 @@ graph TD;
 
 
 5. 프로젝트 구조 설정
-<br>
 
 ```bash
 .
@@ -260,7 +259,6 @@ graph TD;
 
 
 ## 📊 EDA
-<br>
 
 1. 결측치 현황 파악
   - 전체 52개 컬럼 중 41개 컬럼 결측치 존재
@@ -357,7 +355,6 @@ graph TD;
 ## 📈 분석 인사이트 및 결과
 
 ### 🧐분석 및 해결
-<br>
 
 - 공변량 시프트 문제 해결:
     - train: 2007~2023.06 / test: 2023.07~09 간 차이
@@ -381,7 +378,6 @@ graph TD;
 
 
 ### 🧑‍🤝‍🧑 팀원별 인사이트
-<br>
 
 **김장원 – 선형 및 비선형 모델을 통한 인사이트**
 
@@ -429,7 +425,6 @@ graph TD;
 ## 📊 결과 및 주요 인사이트
 
 ### 📉 RMSE (Root Mean Squared Error)
-<br>
 
 $$
 \text{RMSE} = \sqrt{\frac{1}{N} \sum_{i=1}^{N} (y_i - \hat{y}_i)^2}
@@ -442,7 +437,10 @@ $$
 
 
 ### ✨ 최종 결과
-<br>
+
+
+<img width="993" height="619" alt="스크린샷 2025-07-19 205235" src="https://github.com/user-attachments/assets/ee6b2806-0eac-49b6-afdd-77236d7edc5e" />
+
 
 - **Evaluation Metric**: RMSE (Root Mean Squared Error)
 - **Leader Board Score**: **46950.6270** (5위)
@@ -450,7 +448,6 @@ $$
 
 
 ### 🔑 핵심 인사이트
-<br>
 
 1. **공변량 시프트(Covariate Shift) 대응**: 학습 데이터(2007~2023.06)와 테스트 데이터(2023.07~09) 간 분포 차이를 인지하고, **최신 데이터(2013년 10월 이후) 중심의 학습**을 통해 성능을 개선했습니다.
 <br>
@@ -463,7 +460,6 @@ $$
 
 
 ### 🖼️ 모델링 결과 시각화 이미지
-<br>
 
 <img width="964" height="1563" alt="image" src="https://github.com/user-attachments/assets/a97de1fd-f6dd-4148-b004-17b3cb60fa64" />
 <img width="2163" height="1086" alt="image" src="https://github.com/user-attachments/assets/868116fc-f04a-4cdb-9a5b-3b9b15e669b4" />
@@ -479,7 +475,7 @@ $$
 
 
 ## 🤔 회고 (Retrospective)
-<br>
+
 
 **🥇 목표 달성도 및 성과**
 
@@ -522,4 +518,3 @@ $$
 - 주택 관련 논문:
     - https://www.kdi.re.kr/upload/7837/1_1.pdf
     - https://www.emerald.com/insight/content/doi/10.1108/jfm-02-2016-0003/full/html
-- *Insert related reference*
